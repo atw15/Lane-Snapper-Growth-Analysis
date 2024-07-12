@@ -53,7 +53,6 @@ The dataset `Age Master Final_5_12.csv` includes the following columns:
 
 - **Model Fitting and Comparison**:
   - Functions for the von Bertalanffy growth model with truncated normal and regular normal distributions are defined.
-  - Models are fitted using the `nlminb` function, and parameter estimates and log-likelihood values are compared.
 
 ## Predictions and Plotting
 
@@ -72,25 +71,21 @@ The models were fit using a Gibbs Sampler implemented in JAGS, and the Gelman-Ru
 ### Truncated Normal Model with Sex Dependency
 
 - Models sex-specific growth parameters for fishery-dependent and fishery-independent samples.
-- JAGS model file: `vonbertTrunc2K.txt`
 - Outputs: Residuals, predicted values, and model parameters.
 
 ### Combined Sexed Model Truncated
 
 - Models combined sexed samples using truncated normal distribution.
-- JAGS model file: `vonbertTrunc.txt`
 - Outputs: Residuals, predicted values, and model parameters.
 
 ### Combined Sexed Model Normal
 
 - Models combined sexed samples using regular normal distribution.
-- JAGS model file: `vonbert1kNorm.txt`
 - Outputs: Residuals, predicted values, and model parameters.
 
 ### Sex-Specific Model Normal
 
 - Models sex-specific growth parameters without truncation.
-- JAGS model file: `vonbertnormal2K.txt`
 - Outputs: Residuals, predicted values, and model parameters.
 
 ## Residual Analysis
@@ -127,15 +122,3 @@ This project was developed under the guidance of Dr. Elizabeth Babcock. Her expe
 - `Annotated Age and Growth Analysis.R`: The R script containing the annotated code.
 - `Annotated Truncated Growth Models.R`: The R script containing the truncated normal and regular normal growth models.
 - `Age Master Final_5_12.csv`: The dataset used in the analysis.
-
-## Running the Script
-
-- Ensure all required packages are installed and loaded.
-- Load the dataset and clean it as described.
-- Define the functions and prepare the data for modeling.
-- Run the JAGS models and extract the results.
-- Compare the models using DIC.
-- Visualize the results with residual and QQ plots.
-- Summarize the model parameters.
-
-By following these steps, you can thoroughly examine the growth of Lane Snapper, considering various factors and model assumptions.
