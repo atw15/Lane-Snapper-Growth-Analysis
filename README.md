@@ -121,4 +121,3 @@ This project was developed under the guidance of Dr. Elizabeth Babcock. Her expe
 - `README.md`: This file.
 - `Annotated Age and Growth Analysis.R`: The R script containing the annotated code.
 - `Annotated Truncated Growth Models.R`: The R script containing the truncated normal and regular normal growth models.
-- `Age Master Final_5_12.csv`: The dataset used in the analysis.
