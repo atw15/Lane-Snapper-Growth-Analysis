@@ -26,7 +26,7 @@ This project aims to analyze the growth patterns of Lane Snapper using a dataset
 
 ## Data Description
 
-The dataset `Age Master Final_5_12.csv` includes the following columns:
+The dataset `Age Master Final_5_12_GithubEdit.csv` includes the following columns:
 - **Final.Age**: The final age of the fish in years.
 - **FFL.mm**: Fork length of the fish in millimeters.
 - **Fishery**: The type of fishery (e.g., fishery-independent (FI) or fishery-dependent).
